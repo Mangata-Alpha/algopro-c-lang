@@ -3,7 +3,7 @@
 int main()
 {
     int hari;
-
+    // variabel hari, tipe data integer untuk nyimpen inputan angka dari user. Disini angkanya berfungsi untuk nunjukin "hari ke berapa?""
     scanf("%d", &hari);
     if (hari == 1)
     {
