@@ -1,29 +1,14 @@
 #include <stdio.h>
+#define n 5
 int main()
 {
-    int A, B, C, K, N[3];
-
-    scanf("%d %d %d %d", &A, &B, &C, &K);
-
-    if (A > B && A > C)
+    int a[n] = {1,2,3,4,5};
+    int t;
+    for (int i=0; i<n; i++) 
     {
-        if (B > C)
-        {
-            N[0] = A;
-            N[1] = B;
-            N[2] = C;
-        }
-        if (B < C)
-        {
-            N[0] = A;
-            N[1] = C;
-            N[2] = B;
-        }
+        t=a[i]; 
+        a[i]=a[n-i-1];
+        a[n-i-1]=t;
     }
-    else if (A > B && A < C)
-    {
-        N[0] = C;
-        N[1] = A;
-        N[2] = B;
-    }
+    return 0;
 }
