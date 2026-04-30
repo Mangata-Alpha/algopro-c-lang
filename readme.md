@@ -2,4 +2,6 @@
 
 Ini merupakan kumpulan file yang dibuat selama responsi mata kuliah Algoritma dan Pemrograman</br>
 
-> Ayo terus mencoba dan berani dibuat pusing!
+## Ayo terus mencoba dan berani dibuat pusing!
+
+> Setelah UTS kok makin jadi begini materinya...
