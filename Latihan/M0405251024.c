@@ -29,8 +29,7 @@ int main(){
     int hasil[kol][bar];
     for (int i=0;i<bar;i++){
         for (int j=0;j<kol;j++){
-            int sementara = angka[i][j];
-            hasil[j][i] = sementara;
+            hasil[j][i] = angka[i][j];
         }
     }
 
