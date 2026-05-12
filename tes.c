@@ -1,14 +1,17 @@
 #include <stdio.h>
-#define n 5
+
+void swap(int a, int *b)
+{
+    int t=a;
+    a=*b;
+    *b=t;
+}
+
 int main()
 {
-    int a[n] = {1,2,3,4,5};
-    int t;
-    for (int i=0; i<n; i++) 
-    {
-        t=a[i]; 
-        a[i]=a[n-i-1];
-        a[n-i-1]=t;
-    }
+    int a=10, b=15;
+    swap(a, b);
+    printf("%d %d\n", a,b);
+
     return 0;
 }
