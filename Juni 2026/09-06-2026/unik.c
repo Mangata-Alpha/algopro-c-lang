@@ -37,5 +37,5 @@ char *getln() {
 int main(){
     char *p, *kecil;
     p = getln();
-    kecil = tolower(p);
+    for ()
 }
